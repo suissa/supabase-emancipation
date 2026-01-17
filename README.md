@@ -1,5 +1,3 @@
-# supabase-emancipation
-
 - [x] [step01: supabase<->postgres](step01.md)
 - [ ] step02
 - [ ] step03
