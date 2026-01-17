@@ -166,5 +166,5 @@ Se algo não puder ser feito automaticamente, explique exatamente por quê.
 # Siga para a prova real em [Starting](starting.md)
 
 <div align="center">
-<img src="https://i.imgur.com/nJPGzJd.png" alt="o futuro é agêntico" />
+<img src="https://i.imgur.com/nJPGzJd.png" style="300px" alt="o futuro é agêntico" />
 </div>
