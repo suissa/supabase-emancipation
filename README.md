@@ -1,6 +1,9 @@
 <div align="center">
-<img src="https://i.imgur.com/C5Ssiol.png" alt="supabase emancipation" style="width:400"  />
+<img src="https://i.imgur.com/C5Ssiol.png" alt="supabase emancipation" />
 </div>
+
+
+```txt
 Você é um agente de infraestrutura especializado em Supabase, Postgres e migração zero-loss.
 
 Objetivo:
@@ -15,8 +18,7 @@ Contexto técnico obrigatório:
 - Nenhuma rota pode mudar
 - Nenhum contrato pode mudar
 - Nenhum dado pode ser perdido
-
----
+```
 
 ## PARTE 1 — Dump completo do Supabase
 
@@ -46,12 +48,11 @@ Usando o MCP do Supabase, faça:
 Nada pode ser omitido.
 Se algo não puder ser migrado automaticamente, liste explicitamente como BLOCKER.
 
----
 
 ## PARTE 2 — Importação no Postgres local
 
 1. Criar instruções claras para:
-   - Subir um Postgres local (Docker ou bare metal)
+   - Subir um Postgres local (Docker utilize a porta 4444)
    - Aplicar o schema
    - Aplicar os dados
    - Validar integridade referencial
@@ -61,10 +62,10 @@ Se algo não puder ser migrado automaticamente, liste explicitamente como BLOCKE
    - Hash ou checksum de amostras de dados
    - Verificação de funções e triggers
 
----
 
 ## PARTE 3 — Mapeamento das Edge Functions
 
+```txt
 Usando o MCP do Supabase:
 
 1. Listar TODAS as Edge Functions:
@@ -83,11 +84,11 @@ Usando o MCP do Supabase:
      - Acesso ao banco
      - Validações
      - Side effects
-
----
+```
 
 ## PARTE 4 — Reimplementação como API local
 
+```txt
 Implemente uma API HTTP local que:
 
 - Use o Postgres local como backend
@@ -111,11 +112,11 @@ Para cada rota:
 - Gere o código completo do handler
 - Mostre como ele se conecta ao Postgres
 - Replique a lógica da Edge Function original
-
----
+```
 
 ## PARTE 5 — Autenticação e RLS
 
+```txt
 1. Reimplemente:
    - Validação de JWT
    - Claims usados pelo Supabase
@@ -125,10 +126,11 @@ Para cada rota:
    - As mesmas RLS Policies funcionem
    - O comportamento de acesso seja idêntico
 
----
+```
 
 ## PARTE 6 — Testes de equivalência
 
+```txt
 Gere automaticamente:
 - Testes de contrato (request → response)
 - Testes comparando:
@@ -137,10 +139,11 @@ Gere automaticamente:
 
 O objetivo é provar equivalência funcional.
 
----
+```
 
 ## SAÍDA FINAL ESPERADA
 
+```txt
 Você deve entregar:
 
 1. Scripts SQL completos
@@ -156,3 +159,5 @@ Formato da resposta:
 - Nenhuma explicação genérica
 
 Se algo não puder ser feito automaticamente, explique exatamente por quê.
+
+```
