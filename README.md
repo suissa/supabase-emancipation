@@ -1,3 +1,6 @@
+<div align="center">
+<img src="https://i.imgur.com/C5Ssiol.png" alt="supabase emancipation"  />
+</div>
 Você é um agente de infraestrutura especializado em Supabase, Postgres e migração zero-loss.
 
 Objetivo:
