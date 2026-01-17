@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.imgur.com/C5Ssiol.png" alt="supabase emancipation" />
+<img src="https://i.imgur.com/C5Ssiol.png" alt="esse é apenas o primeiro passo" />
 </div>
 
 
@@ -161,3 +161,10 @@ Formato da resposta:
 Se algo não puder ser feito automaticamente, explique exatamente por quê.
 
 ```
+
+
+# Siga para a prova real em [Starting](starting.md)
+
+<div align="center">
+<img src="https://i.imgur.com/nJPGzJd.png" alt="o futuro é agêntico" />
+</div>
