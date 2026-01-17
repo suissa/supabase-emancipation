@@ -1,7 +1,24 @@
 <div align="center">
-<img src="https://i.imgur.com/C5Ssiol.png" alt="esse é apenas o primeiro passo" />
+<img src="/enter.png" alt="esse é apenas o primeiro passo" />
 </div>
 
+# Primeira etapa: liberdade de backend, sem retrabalho
+
+Nesta primeira etapa, a ideia é não quebrar nada do que você já tem.
+Você pode continuar usando Firebase normalmente, enquanto criamos uma réplica em tempo real dos dados.
+
+A diferença é que, a partir daqui, você passa a ter liberdade total de infraestrutura:
+
+seguir só com Firebase,
+
+usar Postgres local,
+
+ou rodar os dois em paralelo, sem mudar seu código de negócio.
+
+Eu vou entregar uma biblioteca compatível com as rotas do Firebase, mas implementada sobre Postgres.
+Na prática, isso significa: mesmas chamadas, mesmos contratos, outro backend.
+
+> Vamos iniciar
 
 ```txt
 Você é um agente de infraestrutura especializado em Supabase, Postgres e migração zero-loss.
@@ -48,7 +65,6 @@ Usando o MCP do Supabase, faça:
 Nada pode ser omitido.
 Se algo não puder ser migrado automaticamente, liste explicitamente como BLOCKER.
 
-
 ## PARTE 2 — Importação no Postgres local
 
 1. Criar instruções claras para:
@@ -61,7 +77,6 @@ Se algo não puder ser migrado automaticamente, liste explicitamente como BLOCKE
    - Contagem de linhas por tabela (Supabase vs local)
    - Hash ou checksum de amostras de dados
    - Verificação de funções e triggers
-
 
 ## PARTE 3 — Mapeamento das Edge Functions
 
@@ -162,9 +177,8 @@ Se algo não puder ser feito automaticamente, explique exatamente por quê.
 
 ```
 
-
 # Siga para a prova real em [Starting](starting.md)
 
 <div align="center">
-<img src="https://i.imgur.com/nJPGzJd.png" style="300px" alt="o futuro é agêntico" />
+<img src="exitpng" style="300px" alt="o futuro é agêntico" />
 </div>
