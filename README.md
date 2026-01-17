@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.imgur.com/C5Ssiol.png" alt="supabase emancipation"  />
+<img src="https://i.imgur.com/C5Ssiol.png" alt="supabase emancipation" style="width:400"  />
 </div>
 Você é um agente de infraestrutura especializado em Supabase, Postgres e migração zero-loss.
 
