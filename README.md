@@ -1,6 +1,6 @@
-- [x] [step01: supabase<->postgres](step01.md)
-- [ ] step02
-- [ ] step03
+- [x] [supabase<->postgres](step01.md)
+- [ ] Database Gateways :Contruíndo seu supabase local
+- [ ] Eveything as Code: Arquitetura barrando erros da IA
 - [ ] step04
 
-![](https://i.imgur.com/4JGSQyN.png)
+![](https://i.imgur.com/MsKVHUd.png)
