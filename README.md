@@ -1,9 +1,47 @@
-<h1 align="center">Quer continuar onde está ou evoluir?</h1>
+<h1 align="center">Cogful Coding: supabase emancipation</h1>
 
-- [x] [Database Local: supabase<->postgres](step01.md)
-- [ ] Database Gateways: Contruíndo seu supabase local
-- [ ] Polyglot Data Access Layer: Eliminando todos ORMs
-- [ ] Eveything as Code: Arquiteturando o futuro dos seus sistemas
-- [ ] Polyglot Agentic DAL: Dominando o estado da arte
 
-![Quer continuar onde está ou evoluir?](https://i.imgur.com/74KX6yA.png)
+![Cogful Coding: supabase emancipation](https://i.imgur.com/MaIgxym.png)
+
+
+
+<div align="center">
+<img src="https://camo.githubusercontent.com/379d349c06636ac984d158aa5983958e6c8cb76074421ca0f448471359977cd4/68747470733a2f2f692e696d6775722e636f6d2f43355373696f6c2e706e67" style="300px" alt="o futuro é agêntico" />
+</div>
+
+
+# Primeira etapa: liberdade de backend, sem retrabalho
+
+Nesta primeira etapa, a ideia é não quebrar nada do que você já tem.
+Você pode continuar usando Firebase normalmente, enquanto criamos uma réplica em tempo real dos dados.
+
+A diferença é que, a partir daqui, você passa a ter liberdade total de infraestrutura:
+
+seguir só com Firebase,
+
+usar Postgres local,
+
+ou rodar os dois em paralelo, sem mudar seu código de negócio.
+
+Eu vou entregar uma biblioteca compatível com as rotas do supabase, mas implementada sobre Postgres.
+Na prática, isso significa: mesmas chamadas, mesmos contratos, outro backend.
+
+Eu criei e testei em uma base de dados pequena e funcionou certinho, mas se a sua for grande sempre verifique o resultado e faça uma lista manual do nome das suas tabelas para validar já no início se ele conseguiu listar todas. Caso não tenha conseguido, crie uma issue aqui falando qual foi a diferença, quero ir melhoranddo a medida que vierem os pedidos para chegar em um solução que funcione para qualquer tamanho de database.
+
+Essa é a sequência dos prompts. Não coloquei tudo em 1 para que você possa validar passo a passo.
+
+- [prompt01](prompt01.md)
+- [prompt02](prompt02.md)
+- [prompt03](prompt03.md)
+- [prompt04](prompt04.md)
+- [prompt05](prompt05.md)
+- [prompt06](prompt06.md)
+
+Aguardo seu feedback.
+
+```
+<div align="center">
+<img src="https://raw.githubusercontent.com/suissa/supabase-emancipation/refs/heads/main/exit.png" style="300px" alt="o futuro é agêntico" />
+</div>
+
+
